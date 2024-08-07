@@ -68,7 +68,6 @@
   # Home Manager
 
   # zsh
-  programs.zsh.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
 
   # List packages installed in system profile. To search, run:
