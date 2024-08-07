@@ -33,14 +33,6 @@
     (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
   ];
 
-  # Hardware
-  hardware.graphics = {
-    enable = true;
-  };
-  hardware.nvidia = {
-    package = config.boot.kernelPackages.nvidiaPackages.stable;
-    modesetting.enable = true;
-  };
 
   # Enable the X11 windowing system.
   services.xserver = {

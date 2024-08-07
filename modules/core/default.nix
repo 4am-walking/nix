@@ -2,5 +2,6 @@
 {
   imports = 
      [ (import ./configuration.nix) ]
-   ++[ (import ./network.nix) ];
+   ++[ (import ./network.nix) ]
+   ++[ (import ./hardware.nix) ];
 }
