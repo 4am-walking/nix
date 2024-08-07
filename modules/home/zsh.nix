@@ -16,8 +16,9 @@
 
     shellAliases = {
       ll = "ls -l";
-      update = "sudo nixos-rebuild switch --flake /etc/nixos#vm";
+      update = "sudo nixos-rebuild switch --flake /home/xp/.dotfiles#vm";
       cat = "bat";
+      vim = "nvim";
     };
     history = {
       size = 10000;
