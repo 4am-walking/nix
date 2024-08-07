@@ -3,5 +3,6 @@
   imports = 
      [ (import ./configuration.nix) ]
    ++[ (import ./network.nix) ]
-   ++[ (import ./hardware.nix) ];
+   ++[ (import ./hardware.nix) ]
+   ++[ (import ./user.nix) ];
 }

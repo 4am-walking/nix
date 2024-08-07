@@ -66,43 +66,10 @@
   # services.libinput.enable = true;
   
   # Home Manager
-  home-manager = {
-    useUserPackages = true;
-    useGlobalPkgs = true;
-    extraSpecialArgs = { inherit inputs username host; };
-    users.${username} = {
-      imports =
-        if (host == "vm") then
-	  [ ./../home/default.vm.nix ]
-	else [ ./../home ];
-      home.username = "${username}";
-      home.homeDirectory = "/home/${username}";
-      home.stateVersion = "24.11";
-      programs.home-manager.enable = true;
-    };
-  };
 
   # zsh
   programs.zsh.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.xp = {
-    isNormalUser = true;
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
-    shell = pkgs.zsh;
-    packages = with pkgs; [
-      firefox
-      tree
-      git
-      fastfetch
-      hyprpaper
-      htop
-      btop
-      yazi
-      waybar
-      fuzzel
-      ncmpcpp
-    ];
-  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
