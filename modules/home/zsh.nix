@@ -16,7 +16,8 @@
 
     shellAliases = {
       ll = "ls -l";
-      update = "sudo nixos-rebuild switch --flake /etc/nixos#desktop";
+      update = "sudo nixos-rebuild switch --flake /etc/nixos#vm";
+      cat = "bat";
     };
     history = {
       size = 10000;
