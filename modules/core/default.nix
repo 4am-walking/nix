@@ -5,5 +5,6 @@
    ++[ (import ./network.nix) ]
    ++[ (import ./hardware.nix) ]
    ++[ (import ./user.nix) ]
-   ++[ (import ./program.nix) ];
+   ++[ (import ./program.nix) ]
+   ++[ (import ./services.nix) ];
 }

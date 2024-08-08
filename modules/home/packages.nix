@@ -14,6 +14,7 @@
     ncmpcpp		# music streaming
     kitty		# terminal emulator
     wget
+    mullvad-vpn
 
     # Python
     python3
