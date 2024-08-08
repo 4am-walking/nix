@@ -20,18 +20,5 @@
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" ];
     shell = pkgs.zsh;
-    packages = with pkgs; [
-      firefox
-      tree
-      git
-      fastfetch
-      hyprpaper
-      htop
-      btop
-      yazi
-      waybar
-      fuzzel
-      ncmpcpp
-    ];
   };
 }
