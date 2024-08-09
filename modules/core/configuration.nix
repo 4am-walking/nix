@@ -55,12 +55,8 @@
   services.printing.enable = true;
 
   # Enable sound.
-  hardware.pulseaudio.enable = true;
+  # hardware.pulseaudio.enable = true;
   # OR
-  # services.pipewire = {
-  #   enable = true;
-  #   pulse.enable = true;
-  # };
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;

@@ -6,5 +6,6 @@
    ++[ (import ./hardware.nix) ]
    ++[ (import ./user.nix) ]
    ++[ (import ./program.nix) ]
-   ++[ (import ./services.nix) ];
+   ++[ (import ./services.nix) ]
+   ++[ (import ./pipewire.nix) ];
 }

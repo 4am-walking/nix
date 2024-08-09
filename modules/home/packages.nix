@@ -9,12 +9,18 @@
     htop
     btop
     yazi		# tui file manager
-    waybar		# nav bar
     fuzzel		# app search
-    ncmpcpp		# music streaming
     kitty		# terminal emulator
     wget
     mullvad-vpn
+    discord
+    audacious
+    pamixer
+    pavucontrol
+    
+    # Mounting
+    samba
+    cifs-utils
 
     # Python
     python3

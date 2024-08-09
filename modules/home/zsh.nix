@@ -19,6 +19,9 @@
       update = "sudo nixos-rebuild switch --flake /home/xp/.dots#desktop";
       cat = "bat";
       vim = "nvim";
+      nix-packages = "vim /home/xp/.dots/modules/home/packages.nix";
+      nix-zsh = "vim /home/xp/.dots/modules/home/zsh.nix";
+
     };
     history = {
       size = 10000;

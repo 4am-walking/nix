@@ -4,5 +4,7 @@
  ++ [(import ./nvim.nix)]
  ++ [(import ./bat.nix)]
  ++ [(import ./git.nix)]
- ++ [(import ./packages.nix)];
+ ++ [(import ./packages.nix)]
+ ++ [(import ./swaylock.nix)]
+ ++ [(import ./waybar)];
 }
