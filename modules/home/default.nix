@@ -6,5 +6,7 @@
  ++ [(import ./git.nix)]
  ++ [(import ./packages.nix)]
  ++ [(import ./swaylock.nix)]
- ++ [(import ./waybar)];
+ ++ [(import ./waybar)]
+ ++ [(import ./firefox.nix)];
+
 }
