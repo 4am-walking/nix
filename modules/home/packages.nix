@@ -16,6 +16,12 @@
     audacious
     pamixer
     pavucontrol
+    thunderbird
+
+    # Screenshots
+    grim
+    swappy
+    slurp
     
     # Mounting
     samba

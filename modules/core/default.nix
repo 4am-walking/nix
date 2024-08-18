@@ -7,5 +7,6 @@
    ++[ (import ./user.nix) ]
    ++[ (import ./program.nix) ]
    ++[ (import ./services.nix) ]
-   ++[ (import ./pipewire.nix) ];
+   ++[ (import ./pipewire.nix) ]
+   ++[ (import ./samba.nix) ];
 }

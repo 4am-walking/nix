@@ -1,0 +1,7 @@
+keys:
+  - &xp age1unrtr9g6cwvrahvfx35m7n32g84j67s0xdjv2mac8y59xah0xv0q2d7u0u
+creation_rules:
+  - path_regex: secrets/secrets.yaml$
+    key_groups:
+      - age:
+        - *xp
