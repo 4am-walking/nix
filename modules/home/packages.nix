@@ -17,6 +17,10 @@
     pamixer
     pavucontrol
     thunderbird
+    neovim
+    ripgrep
+    unzip
+    nerdfonts
 
     # Screenshots
     grim
@@ -33,5 +37,13 @@
     # C / C++
     gcc
     gnumake
+    glibc
+    cmake
+    pkg-config
+    libmicrohttpd
+    openssl
+    gdb
+    valgrind
+    strace
   ]);
 }
